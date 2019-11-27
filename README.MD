@@ -348,7 +348,7 @@ This is useful if you would like to hydrate an item with POST data from your req
 ``` php
 $typeMapper = app(Swis\JsonApi\Client\TypeMapper::class);
 $itemHydrator = app(Swis\JsonApi\Client\ItemHydrator::class);
-$blogRepository = app(App\Repositiories\BlogRepository::class);
+$blogRepository = app(App\Repositories\BlogRepository::class);
 
 $item = $itemHydrator->hydrate(
     $typeMapper->getMapping('blog'),
