@@ -90,7 +90,7 @@ You can simply require the [DocumentClient](#documentclient) as a dependency and
 Alternatively, you can create a repository based on `\Swis\JsonApi\Client\Repository` and use that as a dependency:
 
 ``` php
-use Swis\JsonApi\Client\Repository
+use Swis\JsonApi\Client\Repository;
 
 class BlogRepository extends Repository
 {
